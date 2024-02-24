@@ -1,0 +1,43 @@
+body {
+    background-color: #000; /* Siyah arka plan */
+    color: #0f0; /* Yeşil metin rengi */
+    font-family: 'Courier New', Courier, monospace; /* Hacker yazı tipi */
+    text-align: center; /* Yazıları ortala */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    color: #0f0; /* Yeşil başlık rengi */
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #0f0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; /* Link rengi değişim efekti */
+}
+
+nav a:hover {
+    color: #f0f; /* Hover durumunda link rengi değişimi */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.5; /* Satır aralığı ayarı */
+}
+
+p {
+    margin-bottom: 20px;
+}
